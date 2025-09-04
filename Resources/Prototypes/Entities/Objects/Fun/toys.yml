@@ -549,14 +549,17 @@
     entries:
       CottonBurger: SpaceLizardPlushie
 
+
+
 - type: entity
+  description: An adorable stuffed toy that resembles a lizardperson from an inversed dimension. Hew!
+  name: drazil plushie
   parent: PlushieLizard
   id: PlushieLizardInversed #Hew!
-  name: drazil plushie
-  description: An adorable stuffed toy that resembles a lizardperson from an inversed dimension. Hew!
   components:
   - type: Sprite
-    state: plushie_lizard_inversed
+    sprite: Objects/Fun/toys.rsi
+    state: plushie_lizard
   - type: Item
     heldPrefix: plushielizardinversed
   - type: EmitSoundOnUse
@@ -602,6 +605,7 @@
   - type: FoodSequenceElement
     entries:
       CottonBurger: InversedLizardPlushie
+
 
 
 - type: entity
